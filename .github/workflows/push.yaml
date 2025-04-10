@@ -20,7 +20,7 @@ jobs:
           organization: 'testing_redocly'
           project: 'phronesis-genovora'
           mountPath: '/remote-cicd'
-          files: ''
+          files: 'api.yaml test.txt'
           domain: 'https://app.cloud.redocly.com'
         env:
           REDOCLY_AUTHORIZATION: ${{ secrets.REDOCLY_AUTHORIZATION }}
