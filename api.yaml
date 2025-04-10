@@ -1,5 +1,4 @@
-openapi: 3.1.0
-servssers:
+
   - url: http://example.com
 info:
   title: Learning API Demo
